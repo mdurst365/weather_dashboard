@@ -19,14 +19,18 @@
 	<!-- City Search goes here -->
 	 <div class ="row">
 		 <div id="searchCity">
-         <label><h4>Search For a City:</h4></label>
-		</div>	 
-		 <div><input type="text"></div>
+         <label><h4>Search For a City:</h4></label>	 
+		 <div><input id="searchInput" type="text"></div>
+			 
 	<!-- Submit Search Button goes here -->
-	<button>Search</button>
+	<button id="searchBtn" class="btn searchBtn" data-toggle="tooltip" title="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
 	<!-- Clear Search Button goes here -->
 	<button>Clear</button>	 
-	<!-- End row here -->		 
+	<!-- End searchCity div here -->		 
+	</div>
+	<!-- End row div here -->	 
 	</div>
 	
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
