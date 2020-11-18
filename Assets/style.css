@@ -43,10 +43,20 @@ h1,h2,h3,h4{
 }
 
 .searchBtn{
-    margin-left: 5px;
-    background-color: rgb(50, 99, 173);
+    margin-top: 5px;
+	margin-left: 5px;
+    background-color: darkblue;
     padding: 5px 10px;
     border-radius: 5px;
     color: white;
+}
+
+.clearBtn{
+	margin-top: 5px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
